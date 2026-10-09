@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="أزهادي تريتور — خدمات تنظيم حفلات الزفاف والمناسبات بالرباط. مطبخ راقي، خدمة متميزة، لحظات لا تُنسى." />
+  <title>أزهادي تريتور — حفلات الزفاف والمناسبات بالرباط</title>
+
+  <!-- Fonts: Arabic + French -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Tajawal:wght@300;400;500;700&family=Aref+Ruqaa:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ PRELOADER ═══════════════ -->
+  <div id="preloader">
+    <div class="loader">
+      <span class="loader-script">أزهادي</span>
+      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════ NAVIGATION ═══════════════ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-script" data-i18n="logo">أزهادي</span>
+        <span class="logo-sub">TRAITEUR</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" data-i18n="nav.home">الرئيسية</a></li>
+        <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+        <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
+        <li><a href="#gallery" data-i18n="nav.gallery">معرض الصور</a></li>
+        <li><a href="#testimonials" data-i18n="nav.testimonials">آراء العملاء</a></li>
+        <li><a href="#contact" class="nav-cta" data-i18n="nav.contact">تواصلوا معنا</a></li>
+      </ul>
+
+      <!-- Language Toggle -->
+      <button class="lang-toggle" id="langToggle" aria-label="تبديل اللغة">
+        <span class="lang-option lang-ar active">ع</span>
+        <span class="lang-option lang-fr">FR</span>
+      </button>
+
+      <button class="nav-toggle" id="navToggle" aria-label="القائمة">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle reveal-up" data-i18n="hero.welcome">مرحباً بكم في</p>
+      <h1 class="hero-title">
+        <span class="hero-script reveal-up delay-1" data-i18n="hero.name">أزهادي</span>
+        <span class="hero-main reveal-up delay-2">TRAITEUR</span>
+      </h1>
+      <p class="hero-desc reveal-up delay-3" data-i18n="hero.desc">فن الارتقاء بحفلات زفافكم ومناسباتكم<br/>بمطبخ استثنائي في الرباط</p>
+      <div class="hero-actions reveal-up delay-4">
+        <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">طلب عرض أسعار</a>
+        <a href="#services" class="btn btn-outline" data-i18n="hero.cta2">خدماتنا</a>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll">
+      <span data-i18n="hero.scroll">اكتشفوا</span>
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <div class="about-img-wrapper">
+            <img src="static/images/about-wedding.jpeg" alt="قاعة وحفل زفاف راقي — أزهادي تريتور الرباط" loading="lazy" />
+            <div class="about-img-frame"></div>
+          </div>
+          <div class="about-experience">
+            <span class="exp-number" data-target="15">0</span>
+            <span class="exp-text" data-i18n="about.exp">سنة من الخبرة</span>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <span class="section-tag"><i class="fas fa-star"></i> <span data-i18n="about.tag">قصتنا</span></span>
+          <h2 class="section-title" data-i18n="about.title">التميّز في خدمة<br/>مناسباتكم</h2>
+          <div class="section-divider"></div>
+          <p data-i18n="about.p1">منذ أكثر من 15 سنة، يرافق <strong>أزهادي تريتور</strong> العائلات في الرباط وعبر المغرب في تنظيم أجمل مناسباتهم. شغفنا بالمطبخ المغربي والعالمي ينعكس في كل طبق نحضره بعناية فائقة.</p>
+          <p data-i18n="about.p2">نؤمن بأن كل حفل زفاف فريد من نوعه. لذلك نقدم خدمة مخصصة بالكامل، من تصميم قائمة الطعام إلى التنسيق والخدمة يوم الحفل، لتكون مناسبتكم في مستوى أحلامكم.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <span data-i18n="about.f1">مكونات طازجة ومحلية</span>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <span data-i18n="about.f2">قوائم طعام مخصصة</span>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <span data-i18n="about.f3">فريق محترف</span>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <span data-i18n="about.f4">ديكور أنيق وراقي</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ STATS ═══════════════ -->
+  <section id="stats" class="section-stats">
+    <div class="stats-bg"></div>
+    <div class="stats-overlay"></div>
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal-up">
+          <i class="fas fa-heart"></i>
+          <span class="stat-number" data-target="500">0</span>
+          <span class="stat-label" data-i18n="stats.weddings">حفل زفاف</span>
+        </div>
+        <div class="stat-item reveal-up delay-1">
+          <i class="fas fa-users"></i>
+          <span class="stat-number" data-target="25000">0</span>
+          <span class="stat-label" data-i18n="stats.guests">ضيف تم خدمتهم</span>
+        </div>
+        <div class="stat-item reveal-up delay-2">
+          <i class="fas fa-concierge-bell"></i>
+          <span class="stat-number" data-target="120">0</span>
+          <span class="stat-label" data-i18n="stats.menus">قائمة طعام</span>
+        </div>
+        <div class="stat-item reveal-up delay-3">
+          <i class="fas fa-award"></i>
+          <span class="stat-number" data-target="100">0</span>
+          <span class="stat-label" data-i18n="stats.satisfaction">% رضا العملاء</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SERVICES ═══════════════ -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag"><i class="fas fa-concierge-bell"></i> <span data-i18n="services.tag">ما نقدمه لكم</span></span>
+        <h2 class="section-title" data-i18n="services.title">خدماتنا</h2>
+        <div class="section-divider center"></div>
+        <p class="section-desc" data-i18n="services.desc">مرافقة شاملة لجعل مناسبتكم لحظة ساحرة لا تُنسى</p>
+      </div>
+      <div class="services-grid">
+        <!-- Card 1 -->
+        <div class="service-card reveal-up">
+          <div class="service-icon"><i class="fas fa-ring"></i></div>
+          <h3 data-i18n="services.s1.title">حفلات الزفاف</h3>
+          <p data-i18n="services.s1.desc">تنظيم كامل لحفل الاستقبال: بوفيهات فاخرة، أطباق مقدمة على الطاولة، وعروض طهي حية لحفل زفاف لا يُنسى.</p>
+          <ul class="service-list">
+            <li data-i18n="services.s1.l1">بوفيه مغربي تقليدي</li>
+            <li data-i18n="services.s1.l2">قائمة طعام فاخرة</li>
+            <li data-i18n="services.s1.l3">كوكتيل استقبال</li>
+            <li data-i18n="services.s1.l4">قالب الحفل والحلويات</li>
+          </ul>
+        </div>
+        <!-- Card 2 (Featured) -->
+        <div class="service-card featured reveal-up delay-1">
+          <div class="service-badge" data-i18n="services.popular">الأكثر طلباً</div>
+          <div class="service-icon"><i class="fas fa-champagne-glasses"></i></div>
+          <h3 data-i18n="services.s2.title">الخطوبة والملكة</h3>
+          <p data-i18n="services.s2.desc">تشكيلات أنيقة وراقية للاحتفال بخطوبتكم بأسلوب عصري مع لمسة من التقاليد المغربية الأصيلة.</p>
+          <ul class="service-list">
+            <li data-i18n="services.s2.l1">صواني الحلويات التقليدية</li>
+            <li data-i18n="services.s2.l2">شاي وقهوة الحفل</li>
+            <li data-i18n="services.s2.l3">مقبلات فاخرة</li>
+            <li data-i18n="services.s2.l4">تزيين بالزهور الطبيعية</li>
+          </ul>
+        </div>
+        <!-- Card 3 -->
+        <div class="service-card reveal-up delay-2">
+          <div class="service-icon"><i class="fas fa-calendar-check"></i></div>
+          <h3 data-i18n="services.s3.title">المناسبات الخاصة</h3>
+          <p data-i18n="services.s3.desc">العقيقة، أعياد الميلاد، حفلات الشركات — نكيّف خدماتنا لتناسب كل مناسبة مميزة.</p>
+          <ul class="service-list">
+            <li data-i18n="services.s3.l1">فطور وغداء فاخر</li>
+            <li data-i18n="services.s3.l2">عشاء احتفالي</li>
+            <li data-i18n="services.s3.l3">كوكتيل عشاء</li>
+            <li data-i18n="services.s3.l4">خدمة في المنزل</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ MENU PREVIEW ═══════════════ -->
+  <section id="menu" class="section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag"><i class="fas fa-utensils"></i> <span data-i18n="menu.tag">نكهات استثنائية</span></span>
+        <h2 class="section-title" data-i18n="menu.title">لمحة عن قائمتنا</h2>
+        <div class="section-divider center"></div>
+      </div>
+      <div class="menu-tabs reveal-up">
+        <button class="menu-tab active" data-tab="entrees" data-i18n="menu.tab1">المقبلات</button>
+        <button class="menu-tab" data-tab="plats" data-i18n="menu.tab2">الأطباق الرئيسية</button>
+        <button class="menu-tab" data-tab="desserts" data-i18n="menu.tab3">الحلويات</button>
+      </div>
+      <div class="menu-content">
+        <!-- Entrées -->
+        <div class="menu-panel active" id="tab-entrees">
+          <div class="menu-grid">
+            <div class="menu-item reveal-up">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.e1.name">بسطيلة بفواكه البحر</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.e1.desc">بسطيلة مقرمشة محشوة بالقريدس والحبار مع صلصة كريمية</p>
+            </div>
+            <div class="menu-item reveal-up delay-1">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.e2.name">بريوات بالجبن</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.e2.desc">رقائق مقرمشة محشوة بجبن الماعز والأعشاب الطازجة</p>
+            </div>
+            <div class="menu-item reveal-up delay-2">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.e3.name">سلطة ملكية</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.e3.desc">مزيج من الخضروات الطازجة والحوامض مع صلصة زيت الأركان</p>
+            </div>
+            <div class="menu-item reveal-up delay-3">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.e4.name">حريرة الأعراس</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.e4.desc">شوربة تقليدية بالعدس والحمص وتوابل محلية أصيلة</p>
+            </div>
+          </div>
+        </div>
+        <!-- Plats -->
+        <div class="menu-panel" id="tab-plats">
+          <div class="menu-grid">
+            <div class="menu-item reveal-up">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.p1.name">مشوي الخروف</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.p1.desc">خروف كامل مشوي ببطء مع التوابل، طري ومعطر</p>
+            </div>
+            <div class="menu-item reveal-up delay-1">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.p2.name">طاجين بالبرقوق</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.p2.desc">طاجين لحم الغنم بالبرقوق واللوز والسمسم المحمص</p>
+            </div>
+            <div class="menu-item reveal-up delay-2">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.p3.name">كسكس ملكي</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.p3.desc">سميد ناعم بسبع خضروات مع لحم الغنم والدجاج والمرقاز</p>
+            </div>
+            <div class="menu-item reveal-up delay-3">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.p4.name">دجاج محمر</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.p4.desc">دجاج متبل بالزيتون والحامض المصير، مطهو على الفحم</p>
+            </div>
+          </div>
+        </div>
+        <!-- Desserts -->
+        <div class="menu-panel" id="tab-desserts">
+          <div class="menu-grid">
+            <div class="menu-item reveal-up">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.d1.name">قالب الحفل</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.d1.desc">إبداع حلواني مخصص لحفلكم</p>
+            </div>
+            <div class="menu-item reveal-up delay-1">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.d2.name">كعب الغزال</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.d2.desc">حلوى تقليدية بعجينة اللوز وماء الزهر</p>
+            </div>
+            <div class="menu-item reveal-up delay-2">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.d3.name">الشباكية بالعسل</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.d3.desc">وردات مقرمشة بالعسل وحبوب السمسم</p>
+            </div>
+            <div class="menu-item reveal-up delay-3">
+              <div class="menu-item-header">
+                <h4 data-i18n="menu.d4.name">تشكيلة فواكه</h4>
+                <span class="menu-dots"></span>
+              </div>
+              <p data-i18n="menu.d4.desc">اختيار من الفواكه الطازجة الموسمية، منحوتة ومقدمة بفن</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ GALLERY ═══════════════ -->
+  <section id="gallery" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag"><i class="fas fa-camera"></i> <span data-i18n="gallery.tag">أعمالنا</span></span>
+        <h2 class="section-title" data-i18n="gallery.title">معرض الصور</h2>
+        <div class="section-divider center"></div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-wide reveal-up" data-gallery="buffet">
+          <img src="static/images/buffet-reception.jpeg" alt="بوفيه مغربي فاخر" loading="lazy" />
+          <div class="gallery-overlay">
+            <span data-i18n="gallery.g1">بوفيه فاخر</span>
+            <i class="fas fa-search-plus gallery-icon"></i>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up delay-1" data-gallery="patisseries">
+          <img src="static/images/patisserie-box.jpeg" alt="حلويات مغربية راقية" loading="lazy" />
+          <div class="gallery-overlay">
+            <span data-i18n="gallery.g2">حلويات راقية</span>
+            <i class="fas fa-search-plus gallery-icon"></i>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up delay-2" data-gallery="plats">
+          <img src="static/images/pastilla.jpeg" alt="بسطيلة مغربية أصيلة" loading="lazy" />
+          <div class="gallery-overlay">
+            <span data-i18n="gallery.g3">أطباق تقليدية</span>
+            <i class="fas fa-search-plus gallery-icon"></i>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up delay-1" data-gallery="decoration">
+          <img src="static/images/table-or.jpeg" alt="تزيين طاولات الأعراس" loading="lazy" />
+          <div class="gallery-overlay">
+            <span data-i18n="gallery.g4">تزيين الطاولات</span>
+            <i class="fas fa-search-plus gallery-icon"></i>
+          </div>
+        </div>
+        <div class="gallery-item gallery-wide reveal-up delay-2" data-gallery="gala">
+          <img src="static/images/hero-wedding.jpeg" alt="عشاء احتفالي ملوكي" loading="lazy" />
+          <div class="gallery-overlay">
+            <span data-i18n="gallery.g5">عشاء احتفالي</span>
+            <i class="fas fa-search-plus gallery-icon"></i>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up delay-3" data-gallery="cocktail">
+          <img src="static/images/dates-majhoul.jpeg" alt="ضيافة التمر المحشي والمشروبات" loading="lazy" />
+          <div class="gallery-overlay">
+            <span data-i18n="gallery.g6">ضيافة واستقبال</span>
+            <i class="fas fa-search-plus gallery-icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ LIGHTBOX ═══════════════ -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <div class="lightbox-overlay"></div>
+    <div class="lightbox-container">
+      <div class="lightbox-header">
+        <h3 class="lightbox-title" id="lightboxTitle"></h3>
+        <div class="lightbox-counter"><span id="lightboxCurrent">1</span> / <span id="lightboxTotal">4</span></div>
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="lightbox-body">
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous"><i class="fas fa-chevron-right"></i></button>
+        <div class="lightbox-img-wrapper">
+          <img id="lightboxImg" src="" alt="" />
+          <div class="lightbox-spinner"><i class="fas fa-spinner fa-spin"></i></div>
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next"><i class="fas fa-chevron-left"></i></button>
+      </div>
+      <div class="lightbox-thumbs" id="lightboxThumbs"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════ IMAGE TRAIL INTERACTIVE SECTION ═══════════════ -->
+  <section id="trail-section" class="trail-section">
+    <div class="trail-backdrop"></div>
+    <div class="trail-canvas" id="trailCanvas"></div>
+    <div class="container trail-content">
+      <div class="trail-badge reveal-up">
+        <i class="fas fa-wand-magic-sparkles"></i>
+        <span data-i18n="trail.badge">تجربة تفاعلية</span>
+      </div>
+      <h2 class="trail-title reveal-up delay-1" data-i18n="trail.title">لحظات استثنائية تُخلّد في الذاكرة</h2>
+      <p class="trail-subtitle reveal-up delay-2" data-i18n="trail.subtitle">حرّكوا المؤشر عبر هذه المساحة لاكتشاف ومضات من إبداعاتنا وفن الطهي المغربي الرفيع</p>
+      <div class="trail-hint reveal-up delay-3">
+        <i class="fas fa-arrow-pointer"></i>
+        <span data-i18n="trail.hint">مرّروا الفأرة أو إصبعكم هنا</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag"><i class="fas fa-quote-right"></i> <span data-i18n="testimonials.tag">عملاؤنا يشهدون</span></span>
+        <h2 class="section-title" data-i18n="testimonials.title">آراء العملاء</h2>
+        <div class="section-divider center"></div>
+      </div>
+      <div class="testimonials-slider reveal-up">
+        <div class="testimonial-track" id="testimonialTrack">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text" data-i18n="testimonials.t1.text">"أزهادي تريتور دارو لينا عرس كيحلم بيه أي واحد. الماكلة كانت فوق الرائع والسيرفيس ما عليه كلام. كاع الضيافة مازال كيهضرو عليه!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">س&amp;ك</div>
+              <div>
+                <strong data-i18n="testimonials.t1.name">سارة وكريم</strong>
+                <span data-i18n="testimonials.t1.event">عرس — الرباط، 2025</span>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text" data-i18n="testimonials.t2.text">"والله بروفيسيوناليزم ما كاينش بحالو! الفريق ديال أزهادي سمعو لينا مزيان وداروا لينا مينو على حسب ما بغينا بالضبط. المشوي كان خطييير. شكراً بزاف ليكم."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">ل&amp;أ</div>
+              <div>
+                <strong data-i18n="testimonials.t2.name">لمياء وأحمد</strong>
+                <span data-i18n="testimonials.t2.event">عرس — تمارة، 2024</span>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text" data-i18n="testimonials.t3.text">"فالخطوبة ديالنا، أزهادي حضرو لينا بوفيه زويين بزاف. التقديم كان بحال شي بالاص والمذاق أصيل ومغربي بزاف. كنوصي بيهم وعينيا مغمضين."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">ه&amp;ي</div>
+              <div>
+                <strong data-i18n="testimonials.t3.name">هاجر ويوسف</strong>
+                <span data-i18n="testimonials.t3.event">خطوبة — سلا، 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-controls">
+          <button class="testimonial-btn" id="prevBtn" aria-label="السابق"><i class="fas fa-chevron-right"></i></button>
+          <div class="testimonial-dots" id="testimonialDots"></div>
+          <button class="testimonial-btn" id="nextBtn" aria-label="التالي"><i class="fas fa-chevron-left"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CTA ═══════════════ -->
+  <section id="cta" class="section-cta">
+    <div class="cta-bg"></div>
+    <div class="cta-overlay"></div>
+    <div class="container">
+      <div class="cta-content reveal-up">
+        <h2 data-i18n="cta.title">مستعدون لتحقيق حفل أحلامكم؟</h2>
+        <p data-i18n="cta.desc">تواصلوا معنا اليوم للحصول على استشارة مجانية وعرض أسعار مخصص</p>
+        <a href="#contact" class="btn btn-primary btn-lg">
+          <i class="fas fa-envelope"></i> <span data-i18n="cta.btn">طلب عرض أسعار مجاني</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag"><i class="fas fa-paper-plane"></i> <span data-i18n="contact.tag">حدثونا عن مشروعكم</span></span>
+        <h2 class="section-title" data-i18n="contact.title">تواصلوا معنا</h2>
+        <div class="section-divider center"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4 data-i18n="contact.address.label">العنوان</h4>
+              <p data-i18n="contact.address.value">شارع الكفاح، الرباط<br/>المغرب</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4 data-i18n="contact.phone.label">الهاتف</h4>
+              <p>
+                <a href="tel:+212663083670" style="color:inherit; text-decoration:none;">+212 6 63 08 36 70</a><br/>
+                <a href="tel:+212662660463" style="color:inherit; text-decoration:none;">+212 6 62 66 04 63</a>
+              </p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4 data-i18n="contact.email.label">البريد الإلكتروني</h4>
+              <p><a href="mailto:azhadii123@gmail.com" style="color:inherit; text-decoration:none;">azhadii123@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4 data-i18n="contact.hours.label">أوقات العمل</h4>
+              <p data-i18n="contact.hours.value">الاثنين – السبت: 9ص – 7م<br/>الأحد: بموعد مسبق</p>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/212663083670" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <form class="contact-form reveal-right" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name" data-i18n="form.name">الاسم الكامل</label>
+              <input type="text" id="name" name="name" data-i18n-ph="form.name.ph" placeholder="اسمكم" required />
+            </div>
+            <div class="form-group">
+              <label for="phone" data-i18n="form.phone">الهاتف</label>
+              <input type="tel" id="phone" name="phone" placeholder="+212 6 XX XX XX XX" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" data-i18n="form.email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" data-i18n-ph="form.email.ph" placeholder="بريدكم@email.com" required />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="event" data-i18n="form.event">نوع المناسبة</label>
+              <select id="event" name="event" required>
+                <option value="" disabled selected data-i18n="form.event.choose">اختاروا...</option>
+                <option value="mariage" data-i18n="form.event.o1">حفل زفاف</option>
+                <option value="fiancailles" data-i18n="form.event.o2">خطوبة / ملكة</option>
+                <option value="bapteme" data-i18n="form.event.o3">عقيقة</option>
+                <option value="anniversaire" data-i18n="form.event.o4">عيد ميلاد</option>
+                <option value="entreprise" data-i18n="form.event.o5">حفل شركات</option>
+                <option value="autre" data-i18n="form.event.o6">أخرى</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="guests" data-i18n="form.guests">عدد الضيوف</label>
+              <input type="number" id="guests" name="guests" data-i18n-ph="form.guests.ph" placeholder="مثال: 200" min="10" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="date" data-i18n="form.date">التاريخ المرغوب</label>
+            <input type="date" id="date" name="date" />
+          </div>
+          <div class="form-group">
+            <label for="message" data-i18n="form.message">الرسالة</label>
+            <textarea id="message" name="message" rows="4" data-i18n-ph="form.message.ph" placeholder="صفوا لنا مشروعكم..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-whatsapp btn-full">
+            <i class="fab fa-whatsapp"></i> <span data-i18n="form.submit">طلب عرض أسعار عبر واتساب</span>
+          </button>
+          <p class="form-notice">
+            <i class="fas fa-check-circle"></i>
+            <span data-i18n="form.notice">سيتم تحويلكم مباشرة إلى تطبيق واتساب برسالة منظمة وجاهزة للإرسال</span>
+          </p>
+        </form>
+      </div>
+      <!-- ── MAP ── -->
+      <div class="contact-map reveal-up">
+        <div class="map-header-flex">
+          <h3 class="map-heading"><i class="fas fa-map-marked-alt"></i> <span data-i18n="contact.map.title">موقعنا على الخريطة</span></h3>
+          <a href="https://maps.google.com/?q=33.990325,-6.875830" target="_blank" rel="noopener noreferrer" class="map-directions-btn">
+            <i class="fas fa-location-arrow"></i> <span data-i18n="contact.map.directions">فتح في خرائط Google</span>
+          </a>
+        </div>
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps?q=33.990325,-6.875830&z=17&output=embed"
+            width="100%"
+            height="420"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Azhadi Traiteur — Rabat">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">
+            <span class="logo-script" data-i18n="logo">أزهادي</span>
+            <span class="logo-sub">TRAITEUR</span>
+          </a>
+          <p data-i18n="footer.desc">خدمات تنظيم حفلات الزفاف والمناسبات بالرباط. نكهات أصيلة، خدمة متميزة، لحظات لا تُنسى.</p>
+        </div>
+        <div class="footer-links">
+          <h4 data-i18n="footer.nav">التنقل</h4>
+          <ul>
+            <li><a href="#hero" data-i18n="nav.home">الرئيسية</a></li>
+            <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+            <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
+            <li><a href="#gallery" data-i18n="nav.gallery">معرض الصور</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">تواصلوا معنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4 data-i18n="footer.services">خدماتنا</h4>
+          <ul>
+            <li><a href="#services" data-i18n="services.s1.title">حفلات الزفاف</a></li>
+            <li><a href="#services" data-i18n="services.s2.title">الخطوبة والملكة</a></li>
+            <li><a href="#services" data-i18n="services.s3.title">المناسبات الخاصة</a></li>
+            <li><a href="#menu" data-i18n="menu.title">لمحة عن قائمتنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4 data-i18n="footer.newsletter.title">ابقوا على اطلاع</h4>
+          <p data-i18n="footer.newsletter.desc">تلقوا آخر عروضنا وإلهاماتنا</p>
+          <form class="newsletter-form">
+            <input type="email" data-i18n-ph="footer.newsletter.ph" placeholder="بريدكم الإلكتروني" required />
+            <button type="submit"><i class="fas fa-arrow-left"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copy">© 2026 أزهادي تريتور. جميع الحقوق محفوظة.</p>
+        <p><span data-i18n="footer.made">صنع بـ</span> <i class="fas fa-heart"></i> <span data-i18n="footer.location">في الرباط، المغرب</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="backToTop" aria-label="العودة للأعلى"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/212663083670" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
